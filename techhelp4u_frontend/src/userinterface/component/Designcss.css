@@ -1,0 +1,6 @@
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);  /* very dark, mostly transparent */
+  backdrop-filter: blur(10px);            /* blur behind the element */
+  border-radius: 1rem;                     /* already applied via Tailwind rounded-2xl */
+  border: 1px solid rgba(255,255,255,0.1); /* optional faint border */
+}
